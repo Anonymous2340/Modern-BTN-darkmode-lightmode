@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: bo;
+}
+
+.toggle-dark-bg {
+    display: flex;
+    flex-direction: columen;
+    justify-content: center;
+    transition: all 0.55s ease-in-out 0.2s;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #2e2d2d;
+}
+
+.toggle-light-bg {
+    display: flex;
+    flex-direction: columen;
+    transition: all 0.55s ease-in-out 0.2s;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#box {
+    transition: all 0.55s ease-in-out 0.2s;
+}
+
+#box .btn-darkmode {
+    width: 50%;
+    height: inherit;
+    border-radius: inherit;
+    position: absolute;
+    transition: all 0.55s ease-in-out 0.2s;
+    transform: translateX(-50%);
+    background: linear-gradient(to bottom right, #0c2e3b, #2a3f6b, #68679e, #b4a5c9);
+    border: none;
+    outline: none;
+}
+
+#box .btn-lightmode {
+    width: 50%;
+    height: inherit;
+    border-radius: inherit;
+    transition: all 0.55s ease-in-out 0.2s;
+    position: absolute;
+    transform: translateX(50%);
+    background: linear-gradient(to bottom right, #ffff, #cdd9e4, #4586a0);    ;
+    outline: none;
+    border: none;
+}
+
+.btn-darkmode .fa-sun {
+    font-size: 30px;
+    color: #ffffff;
+    transition: all 0.55s ease-in-out 0.2s;
+}
+
+
+.btn-lightmode .fa-moon {
+    font-size: 30px;
+    color: #0a0a0a;
+    transition: all 0.55s ease-in-out 0.2s;
+}
+
+.dark-toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    transition: all 0.55s ease-in-out 0.2s;
+    height: 60px;
+    position: relative;
+    border: 3px solid black;
+    border-radius: 70px;
+    background: linear-gradient(to bottom right, #114255, #2e235a, #4c4b86);
+}
+
+.light-toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 60px;
+    transition: all 0.55s ease-in-out 0.2s;
+    position: relative;
+    border: 3px solid black;
+    border-radius: 70px;
+    background: linear-gradient(to top left, rgb(90, 130, 238), #9a9dbd, #ffff);
+}
